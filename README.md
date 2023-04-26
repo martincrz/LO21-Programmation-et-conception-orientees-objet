@@ -10,12 +10,19 @@ Initiation à la conception et à la programmation objet. Études des différent
 ## Notions
 
 📁 TD1 - 
-  ├── Notions d'objet et de classe.\n
+
+  ├── Notions d'objet et de classe.
+  
   ├── L'approche orientée objet. 
+  
   ├── C++ introduction. 
+  
   ├── Structure et éléments d'un programme en C++. 
+  
   ├── Les données en C++. 
+  
   └── Adressage indirect.
+  
 
 📁 TD2 -
   ├── Classes. 
