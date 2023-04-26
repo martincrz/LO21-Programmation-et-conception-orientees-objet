@@ -43,7 +43,7 @@ de rendre l'application évolutive et notamment de garantir la facilité d'ajout
 Vous démontrerez la pertinence de votre architecture dans votre rapport en expliquant comment ajouter
 ces éléments.
 En choisissant une édition/variante du jeu que vous n'avez pas implémentée (et que vous n'avez pas
-à implémenter), à titre d'illustration, vous expliquerez dans votre rapport nal comment faire (sans le
+à implémenter), à titre d'illustration, vous expliquerez dans votre rapport final comment faire (sans le
 coder) pour implémenter cette autre version (classes à créer, intégration dans l'architecture, éventuelles
 modications de codes à prévoir, ...).
 
@@ -51,7 +51,7 @@ modications de codes à prévoir, ...).
 ## 4 Consignes
 
 - Le projet est à effectuer en groupe de 4 ou 5 étudiants (du même groupe de TD).
-- Vous êtes libres de réutiliser et modier les classes déjà élaborées en TD pour les adapter votre
+- Vous êtes libres de réutiliser et modifier les classes déjà élaborées en TD pour les adapter votre
 architecture.
 - En plus des instructions standards du C++/C++11/C++14, vous pouvez utiliser l'ensemble des
 bibliothèques standards du C++/C++11/C++14.
