@@ -4,32 +4,32 @@
 #include "fonction.h"
 using namespace std;
 
-//RÈfÈrence - RÈfÈrences const
+//R√©f√©rence - R√©f√©rences const
 void exercice11(){
     //rappel : reference
 
     //double& d1=36;
-        //pas valide : rÈfÈrence sur une rvalue > il faut une lvalue pour init
+        //pas valide : r√©f√©rence sur une rvalue > il faut une lvalue pour init
         //rvalue reference : double&& d1=36;
     double d2=36;
     double& ref=d2;
     ref=4;
-        //on modifie directement la valeur de la donnÈe rÈfÈrencÈe
+        //on modifie directement la valeur de la donn√©e r√©f√©renc√©e
     const double d3=36;
     const double& d4=36;
-        //on crÈe une rÈfÈrence const qu'on initialise avec 36
-        //le compilateur rÈserve une zone mÈmoire qui a la mÍme durÈe de vie que la ref, c'est cette donnÈe qui est rÈfÈrencÈe
+        //on cr√©e une r√©f√©rence const qu'on initialise avec 36
+        //le compilateur r√©serve une zone m√©moire qui a la m√™me dur√©e de vie que la ref, c'est cette donn√©e qui est r√©f√©renc√©e
 
     const double& d5=d2;
     //d5=21;
-        //pas valide : ref const > on ne peut pas modifier la valeur de la donnÈe rÈfÈrencÈe
+        //pas valide : ref const > on ne peut pas modifier la valeur de la donn√©e r√©f√©renc√©e
     const double& d6=d3;
     //double& ref2=d6;
         //pas valide : d3 est const, pas de conversion implicite
         //conversion explicite : double& ref2 = const_cast<double&>(d6)
     int i=4;
     //double& d7=i;
-        //pas valide : pas de conversion implicite : il faut une exacte correspondance : il faut initilaiser avec une lvalue de mÍme type
+        //pas valide : pas de conversion implicite : il faut une exacte correspondance : il faut initilaiser avec une lvalue de m√™me type
     const double& d8=i;
         //conversion possible avec les ref const
     //d8=3;
@@ -104,7 +104,7 @@ void essai_alloc(){
 }
 
 
-//exercice16 modifiÈ ‡ l'exo 17
+//exercice16 modifi√© √† l'exo 17
 //Q1
 void personne::raz(void){
     //nom[0]='\0';
