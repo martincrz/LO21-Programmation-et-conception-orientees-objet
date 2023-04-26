@@ -24,7 +24,7 @@ L'application doit permettre de jouer la partie, de vérifer les revendications 
 le gagnant.
 
 Vous êtes libre d'organiser votre interface du moment qu'elle permet de piloter facilement l'application.
-Les visuels doivent seulement être susants pour comprendre l'état du jeu. Ainsi, pour les cartes, bornes
+Les visuels doivent seulement être sufisants pour comprendre l'état du jeu. Ainsi, pour les cartes, bornes
 ou murailles, il n'est pas spécialement demandé d'utiliser des graphismes. Soyez créatifs dans la façon
 de gérer les tours pour faire en sorte qu'un joueur ne puisse pas voir la main de l'autre.
 
