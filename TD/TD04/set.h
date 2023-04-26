@@ -9,7 +9,7 @@
 using namespace std;
 
 namespace Set {
-	// classe pour gérer les exceptions dans le set
+	// classe pour gÃ©rer les exceptions dans le set
 	class SetException {
 	public:
 		SetException(const string& i) :info(i) {}
@@ -18,31 +18,31 @@ namespace Set {
 		string info;
 	};
 
-	// caractéristiques
+	// caractÃ©ristiques
 	enum class Couleur { rouge, mauve, vert };
 	enum class Nombre { un=1, deux=2, trois=3 };
 	enum class Forme { ovale, vague, losange };
 	enum class Remplissage { plein, vide, hachure };
 
-	// conversion d'une caractéristique en string
+	// conversion d'une caractÃ©ristique en string
 	string toString(Couleur c);
 	string toString(Nombre v);
 	string toString(Forme f);
 	string toString(Remplissage v);
 
-	// écriture d'une caractéristique sur un flux ostream
+	// Ã©criture d'une caractÃ©ristique sur un flux ostream
 	ostream& operator<<(ostream& f, Couleur c);
 	ostream& operator<<(ostream& f, Nombre v);
 	ostream& operator<<(ostream& f, Forme x);
 	ostream& operator<<(ostream& f, Remplissage r);
 
-	// listes contenant les valeurs possibles pour chacune des caractéristiques
+	// listes contenant les valeurs possibles pour chacune des caractÃ©ristiques
 	extern std::initializer_list<Couleur> Couleurs;
 	extern std::initializer_list<Nombre> Nombres;
 	extern std::initializer_list<Forme> Formes;
 	extern std::initializer_list<Remplissage> Remplissages;
 
-	// affichage des valeurs possibles pour chaque caractéristiques
+	// affichage des valeurs possibles pour chaque caractÃ©ristiques
 	void printCouleurs(std::ostream& f = cout);
 	void printNombres(std::ostream& f = cout);
 	void printFormes(std::ostream& f = cout);
@@ -74,7 +74,7 @@ namespace Set {
 		size_t getNbCartes() const { return 81; }
 		const Carte& getCarte(size_t i) const;
 		~Jeu();
-		// désactivation du costructeur de recopie et de l'affectation
+		// dÃ©sactivation du costructeur de recopie et de l'affectation
 		Jeu(const Jeu& j) = delete;
 		Jeu& operator=(const Jeu& j) = delete;
 	private:
@@ -91,7 +91,7 @@ namespace Set {
 		size_t getNbCartes() const { return nb; }
 		bool estVide() const { return nb == 0; }
 	private:
-		const Carte** cartes=nullptr; // tableau de poiteurs const alloué dynamiquement
+		const Carte** cartes=nullptr; // tableau de poiteurs const allouÃ© dynamiquement
 		size_t nb = 0;
 	};
 
@@ -105,7 +105,7 @@ namespace Set {
 		Plateau& operator=(const Plateau& p);
 	private:
 		void agrandirTableau(size_t t);
-		const Carte** cartes = nullptr; // tableau de poiteurs const alloué dynamiquement
+		const Carte** cartes = nullptr; // tableau de poiteurs const allouÃ© dynamiquement
 		size_t nb = 0; // nb de cartes dans le tableau
 		size_t nbMax; // taille du tableau
 	};
