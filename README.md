@@ -18,23 +18,23 @@ Initiation à la conception et à la programmation objet. Études des différent
   └── Adressage indirect.  
   
 
-📁 TD2 -
-  ├── Classes. 
-  └── Le principe d'encapsulation.
+📁 TD2 -  
+  ├── Classes.   
+  └── Le principe d'encapsulation.  
 
-📁 TD3 - 
-  ├── Naissance d'un objet. 
-  ├── Mort d'un objet. 
-  ├── Allocation dynamique en C++. 
-  └── Associations entre classes. 
+📁 TD3 -   
+  ├── Naissance d'un objet.   
+  ├── Mort d'un objet.  
+  ├── Allocation dynamique en C++.   
+  └── Associations entre classes.   
 
-📁 TD4 - 
-  ├──Les membres statiques.  
-  ├──Copies et affectations entre objets. 
-  ├──Les design pattern. 
-  ├──Design pattern Singleton. 
-  ├──Design pattern Iterator. 
-  └── Hiérarchies de classes.
+📁 TD4 -   
+  ├──Les membres statiques.    
+  ├──Copies et affectations entre objets.   
+  ├──Les design pattern.   
+  ├──Design pattern Singleton.   
+  ├──Design pattern Iterator.   
+  └── Hiérarchies de classes.  
 
 
 
