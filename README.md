@@ -19,7 +19,7 @@ Initiation à la conception et à la programmation objet. Études des différent
   
 
 📁 TD2 -  
-  ├── Classes.   
+  ├── Classes.  
   └── Le principe d'encapsulation.  
 
 📁 TD3 -   
