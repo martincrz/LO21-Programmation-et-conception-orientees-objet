@@ -102,14 +102,14 @@ namespace Set {
 	const Carte& Pioche::piocher(){
 		if (estVide()) throw SetException("piocher dans une pioche vide");
 		size_t x = rand() % nb;
-		const Carte& c = *cartes[x]; // création d'une ref sur la carte piochée
-		cartes[x] = cartes[--nb]; // déplacement de la dernière carte 
-							// à l'emplacement de l acrte piochée		
+		const Carte& c = *cartes[x]; // crÃ©ation d'une ref sur la carte piochÃ©e
+		cartes[x] = cartes[--nb]; // dÃ©placement de la derniÃ¨re carte 
+							// Ã  l'emplacement de l acrte piochÃ©e		
 		return c;
 	}
 	
 	Pioche::~Pioche(){
-		delete[] cartes; // désallocation du tableau de pointeurs
+		delete[] cartes; // dÃ©sallocation du tableau de pointeurs
 	}
 
 	Plateau::Plateau():cartes(new const Carte*[12]), 
@@ -120,11 +120,11 @@ namespace Set {
 		if (t <= nbMax) return;
 		// allocation nouveau tableau
 		auto nouveau_tab = new const Carte * [t];
-		// recopie des données du tableau initial
+		// recopie des donnÃ©es du tableau initial
 		for (size_t i = 0; i < nb; i++) 
 			nouveau_tab[i] = cartes[i];
 		auto old = cartes;
-		// mise à jour des attributs
+		// mise Ã  jour des attributs
 		cartes = nouveau_tab;
 		nbMax = t;
 		// destruction ancien tableau
@@ -155,7 +155,7 @@ namespace Set {
 	}
 	
 	Plateau& Plateau::operator=(const Plateau& p) {
-		if (this != &p) { // on se protège de l'auto-affectation
+		if (this != &p) { // on se protÃ¨ge de l'auto-affectation
 			if (nbMax < p.nb) agrandirTableau(p.nb);
 			for (size_t i = 0; i < p.nb; i++) 
 				cartes[i] = p.cartes[i];
