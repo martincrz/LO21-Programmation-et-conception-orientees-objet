@@ -14,13 +14,13 @@ jouer au moins à Schotten-Totten dans la variante de base et la variante tactiq
 
 L'application doit permettre de paramétrer une partie :
 
- choisir l'édition/variante du jeu dans laquelle on souhaite jouer ;
- paramètres des joueurs (nom, joueur humain/IA, type d'IA si plusieurs, rôle selon édition) ;
+- choisir l'édition/variante du jeu dans laquelle on souhaite jouer ;
+- paramètres des joueurs (nom, joueur humain/IA, type d'IA si plusieurs, rôle selon édition) ;
 
 L'application doit disposer d'au moins 1 type d'IA. Pour cela, vous pourrez développer une IA très
 simple qui prend ses décisions au hasard en fonction des possibilités.
 
-L'application doit permettre de jouer la partie, de vérier les revendications des joueurs, et de déterminer
+L'application doit permettre de jouer la partie, de vérifer les revendications des joueurs, et de déterminer
 le gagnant.
 
 Vous êtes libre d'organiser votre interface du moment qu'elle permet de piloter facilement l'application.
@@ -36,9 +36,9 @@ L'architecture de votre application devra permettre d'intégrer de nouvelles éd
 sans remettre en cause le code existant (ou a minima). Les choix de conception devront donc permettre
 de rendre l'application évolutive et notamment de garantir la facilité d'ajout des composants suivants
 (sans impacter le reste du programme) :
- nouvelles IA joueurs,
- ajout de nouvelles éditions/variantes du jeu,
- éventuellement l'ajout d'éléments d'IHM de paramétrage liés aux nouveaux ajouts.
+- nouvelles IA joueurs,
+- ajout de nouvelles éditions/variantes du jeu,
+- éventuellement l'ajout d'éléments d'IHM de paramétrage liés aux nouveaux ajouts.
 
 Vous démontrerez la pertinence de votre architecture dans votre rapport en expliquant comment ajouter
 ces éléments.
@@ -46,10 +46,13 @@ En choisissant une édition/variante du jeu que vous n'avez pas implémentée (e
 à implémenter), à titre d'illustration, vous expliquerez dans votre rapport nal comment faire (sans le
 coder) pour implémenter cette autre version (classes à créer, intégration dans l'architecture, éventuelles
 modications de codes à prévoir, ...).
-4 Consignes
- Le projet est à eectuer en groupe de 4 ou 5 étudiants (du même groupe de TD).
- Vous êtes libres de réutiliser et modier les classes déjà élaborées en TD pour les adapter votre
+
+
+## 4 Consignes
+
+- Le projet est à effectuer en groupe de 4 ou 5 étudiants (du même groupe de TD).
+- Vous êtes libres de réutiliser et modier les classes déjà élaborées en TD pour les adapter votre
 architecture.
- En plus des instructions standards du C++/C++11/C++14, vous pouvez utiliser l'ensemble des
+- En plus des instructions standards du C++/C++11/C++14, vous pouvez utiliser l'ensemble des
 bibliothèques standards du C++/C++11/C++14.
- L'interface graphique est à réaliser en utilisant le framework Qt.
+- L'interface graphique est à réaliser en utilisant le framework Qt.
