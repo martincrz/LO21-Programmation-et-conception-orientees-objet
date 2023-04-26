@@ -29,11 +29,11 @@ Initiation à la conception et à la programmation objet. Études des différent
   └── Associations entre classes.   
 
 📁 TD4 -   
-  ├──Les membres statiques.    
-  ├──Copies et affectations entre objets.   
-  ├──Les design pattern.   
-  ├──Design pattern Singleton.   
-  ├──Design pattern Iterator.   
+  ├── Les membres statiques.    
+  ├── Copies et affectations entre objets.   
+  ├── Les design pattern.   
+  ├── Design pattern Singleton.   
+  ├── Design pattern Iterator.   
   └── Hiérarchies de classes.  
 
 
